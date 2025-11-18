@@ -1,0 +1,172 @@
+/* ----------------------------------------------------------
+   Global Styles
+-----------------------------------------------------------*/
+body {
+  font-family: "Inter", Arial, sans-serif;
+  background: linear-gradient(to bottom right, #f1f5f9, #e2e8f0);
+  color: #111827;
+  margin: 0;
+  padding: 30px;
+}
+
+/* Container */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 32px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+  animation: fadeIn 0.4s ease;
+}
+
+/* Headings */
+h1 {
+  margin-top: 0;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.welcome {
+  color: #6b7280;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+/* ----------------------------------------------------------
+   Buttons
+-----------------------------------------------------------*/
+.buttons {
+  margin: 20px 0 28px;
+}
+
+.buttons button {
+  margin-right: 10px;
+  padding: 10px 18px;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+  background: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+.buttons button:hover {
+  background: #f9fafb;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transform: translateY(-2px);
+}
+
+.buttons button:active {
+  transform: scale(0.97);
+}
+
+/* ----------------------------------------------------------
+   Output Layout
+-----------------------------------------------------------*/
+.output {
+  margin-top: 20px;
+}
+
+/* ----------------------------------------------------------
+   Movie Cards
+-----------------------------------------------------------*/
+.movie-card {
+  border: 1px solid #e5e7eb;
+  padding: 18px;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  background: #ffffff;
+  transition: 0.25s ease;
+}
+
+.movie-card:hover {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  transform: translateY(-2px);
+}
+
+.movie-title {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+
+.badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  margin-left: 8px;
+  background: #FEF3C7;     /* soft yellow */
+  border: 1px solid #FBBF24;
+  color: #92400E;
+}
+
+/* Meta Info */
+.movie-meta {
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.genre-tag {
+  font-weight: 600;
+  color: #374151;
+}
+
+/* ----------------------------------------------------------
+   Genre Cards
+-----------------------------------------------------------*/
+.genre-card {
+  border: 1px solid #e5e7eb;
+  padding: 14px 18px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.25s ease;
+}
+
+.genre-card:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
+  transform: translateY(-2px);
+}
+
+.genre-name {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.genre-count {
+  font-size: 14px;
+  color: #4b5563;
+}
+
+/* ----------------------------------------------------------
+   Status & Error Messages
+-----------------------------------------------------------*/
+.loading {
+  font-size: 15px;
+  color: #2563eb;
+  font-weight: 500;
+}
+
+.empty {
+  font-size: 15px;
+  color: #6b7280;
+}
+
+.error {
+  color: #dc2626;
+  font-weight: 700;
+  background: #fee2e2;
+  padding: 10px 14px;
+  border-radius: 8px;
+}
+
+/* Fade In Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
