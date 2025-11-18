@@ -125,3 +125,6 @@ Error handling for API requests
 
 🔗 GitHub Repository
  https://github.com/fmisriya/movie-collection-api.git
+
+ Author 
+ Fathima Misriya
