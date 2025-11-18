@@ -111,6 +111,7 @@ app.get('/movies/genres', (req, res) => {
 // Start the server
 // -----------------------------
 app.listen(PORT, () => {
+    console.log(`✅ Server running on http://localhost:${PORT}/`);
   console.log(`✅ Server running on http://localhost:${PORT}/movies`);
    console.log(`✅ Server running on http://localhost:${PORT}/movies/classics`);
     console.log(`✅ Server running on http://localhost:${PORT}/movies/genres`);
