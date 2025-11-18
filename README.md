@@ -92,7 +92,7 @@ Sample Response:
 }
 🚀 Installation & Setup Instructions
 1️⃣ Clone the Repository
-git clone 
+git clone https://github.com/fmisriya/movie-collection-api.git
 cd movie-collection-api
 
 2️⃣ Install Dependencies
@@ -124,3 +124,4 @@ Clean UI with basic CSS
 Error handling for API requests
 
 🔗 GitHub Repository
+ https://github.com/fmisriya/movie-collection-api.git
